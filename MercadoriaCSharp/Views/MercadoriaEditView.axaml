@@ -1,9 +1,25 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:MercadoriaCSharp.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="MercadoriaCSharp.Views.MercadoriaEditView"
+        x:DataType="vm:MercadoriaEditViewModel"
         Title="MercadoriaEditView">
-  Welcome to Avalonia!
+  <Border Margin="50">
+      <StackPanel Orientation="Vertical">
+          <TextBlock>CodBarras</TextBlock>
+          <TextBox Text="{Binding MercadoriaAtual.CodBarras}" IsReadOnly="True"/>
+          <TextBlock>Descricao</TextBlock>
+          <TextBox Text="{Binding MercadoriaAtual.Descricao}"/>
+          <TextBlock>Estoque Minimo</TextBlock>
+          <TextBox Text="{Binding MercadoriaAtual.EstoqueMinimo}"/>
+          <TextBlock>Marca</TextBlock>
+          <TextBox Text="{Binding MercadoriaAtual.Marca}" Height="100" AcceptsReturn="True" TextWrapping="Wrap"/>
+          <TextBlock>Quantidade</TextBlock>
+          <TextBox Text="{Binding MercadoriaAtual.Quantidade}"/>
+          <Button Command="{Binding Salva}">Salavar</Button>
+      </StackPanel>
+  </Border>
 </Window>

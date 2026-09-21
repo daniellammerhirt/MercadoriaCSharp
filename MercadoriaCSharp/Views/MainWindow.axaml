@@ -9,12 +9,33 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="MercadoriaCSharp">
 
-    <Design.DataContext>
-        <!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
-        <vm:MainWindowViewModel/>
-    </Design.DataContext>
-
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Arquivo">
+                <MenuItem Header="_Novo..." Command="{Binding Novo}"/>
+                <MenuItem Header="_Altera..." Command="{Binding Altera}"/>
+                <MenuItem Header="_Exclui..." Command="{Binding Exclui}"/>
+                <MenuItem Header="_Sair..." Command="{Binding Sair}"/>
+            </MenuItem>
+        </Menu>
+        <ScrollViewer DockPanel.Dock="Bottom">
+            <StackPanel>
+                <DataGrid VerticalAlignment="Stretch" SelectionMode="Single" 
+                          SelectedItem="{Binding MercadoriaAtual}"
+                          Margin="20" ItemsSource="{Binding Mercadorias}"
+                          IsReadOnly="True" GridLinesVisibility="All"
+                          BorderThickness="1" BorderBrush="Gray">
+                    
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="CodBarras" Binding="{Binding CodBarras}"/>
+                        <DataGridTextColumn Header="Descricao" MinWidth="200" Binding="{Binding Descricao}"/>
+                        <DataGridTextColumn Header="EstoqueMinimo" Binding="{Binding EstoqueMinimo}"/>
+                        <DataGridTextColumn Header="Marca" Binding="{Binding Marca}"/>
+                        <DataGridTextColumn Header="Quantidade" Binding="{Binding Quantidade}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </ScrollViewer>
+    </DockPanel>
 
 </Window>

@@ -5,5 +5,9 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="MercadoriaCSharp.Views.EntradaEditView"
         Title="EntradaEditView">
-  Welcome to Avalonia!
+  <Border>
+      <StackPanel>
+          
+      </StackPanel>
+  </Border>
 </Window>

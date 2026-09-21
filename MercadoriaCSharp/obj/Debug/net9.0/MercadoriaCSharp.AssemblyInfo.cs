@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MercadoriaCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fac142110e3281525e4b3ac7524104a72369ae96")]
 [assembly: System.Reflection.AssemblyProductAttribute("MercadoriaCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MercadoriaCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

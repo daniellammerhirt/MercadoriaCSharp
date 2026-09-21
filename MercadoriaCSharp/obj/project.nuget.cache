@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "PSoEP667oZQ=",
-  "success": false,
+  "dgSpecHash": "4H3OEfwDQAI=",
+  "success": true,
   "projectFilePath": "/home/info2026/Avalonia/MercadoriaCSharp/MercadoriaCSharp/MercadoriaCSharp.csproj",
   "expectedPackageFiles": [
     "/home/info2026/.nuget/packages/avalonia/11.3.12/avalonia.11.3.12.nupkg.sha512",
     "/home/info2026/.nuget/packages/avalonia.angle.windows.natives/2.1.25547.20250602/avalonia.angle.windows.natives.2.1.25547.20250602.nupkg.sha512",
     "/home/info2026/.nuget/packages/avalonia.buildservices/11.3.2/avalonia.buildservices.11.3.2.nupkg.sha512",
     "/home/info2026/.nuget/packages/avalonia.controls.colorpicker/11.3.12/avalonia.controls.colorpicker.11.3.12.nupkg.sha512",
-    "/home/info2026/.nuget/packages/avalonia.controls.datagrid/12.1.2/avalonia.controls.datagrid.12.1.2.nupkg.sha512",
+    "/home/info2026/.nuget/packages/avalonia.controls.datagrid/11.3.12/avalonia.controls.datagrid.11.3.12.nupkg.sha512",
     "/home/info2026/.nuget/packages/avalonia.desktop/11.3.12/avalonia.desktop.11.3.12.nupkg.sha512",
     "/home/info2026/.nuget/packages/avalonia.diagnostics/11.3.12/avalonia.diagnostics.11.3.12.nupkg.sha512",
     "/home/info2026/.nuget/packages/avalonia.fonts.inter/11.3.12/avalonia.fonts.inter.11.3.12.nupkg.sha512",
@@ -21,14 +21,14 @@
     "/home/info2026/.nuget/packages/avalonia.win32/11.3.12/avalonia.win32.11.3.12.nupkg.sha512",
     "/home/info2026/.nuget/packages/avalonia.x11/11.3.12/avalonia.x11.11.3.12.nupkg.sha512",
     "/home/info2026/.nuget/packages/communitytoolkit.mvvm/8.2.1/communitytoolkit.mvvm.8.2.1.nupkg.sha512",
-    "/home/info2026/.nuget/packages/dialoghost.avalonia/0.12.1-nightly.0.1/dialoghost.avalonia.0.12.1-nightly.0.1.nupkg.sha512",
+    "/home/info2026/.nuget/packages/dialoghost.avalonia/0.8.1/dialoghost.avalonia.0.8.1.nupkg.sha512",
     "/home/info2026/.nuget/packages/harfbuzzsharp/8.3.1.1/harfbuzzsharp.8.3.1.1.nupkg.sha512",
     "/home/info2026/.nuget/packages/harfbuzzsharp.nativeassets.linux/8.3.1.1/harfbuzzsharp.nativeassets.linux.8.3.1.1.nupkg.sha512",
     "/home/info2026/.nuget/packages/harfbuzzsharp.nativeassets.macos/8.3.1.1/harfbuzzsharp.nativeassets.macos.8.3.1.1.nupkg.sha512",
     "/home/info2026/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/8.3.1.1/harfbuzzsharp.nativeassets.webassembly.8.3.1.1.nupkg.sha512",
     "/home/info2026/.nuget/packages/harfbuzzsharp.nativeassets.win32/8.3.1.1/harfbuzzsharp.nativeassets.win32.8.3.1.1.nupkg.sha512",
     "/home/info2026/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
-    "/home/info2026/.nuget/packages/messagebox.avalonia/12.0.0/messagebox.avalonia.12.0.0.nupkg.sha512",
+    "/home/info2026/.nuget/packages/messagebox.avalonia/3.3.1.1/messagebox.avalonia.3.3.1.1.nupkg.sha512",
     "/home/info2026/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
     "/home/info2026/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/info2026/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -77,17 +77,5 @@
     "/home/info2026/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
     "/home/info2026/.nuget/packages/tmds.dbus.protocol/0.21.2/tmds.dbus.protocol.0.21.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Avalonia from 12.1.0 to 11.3.12. Reference the package directly from the project to select a different version. \n MercadoriaCSharp -> Avalonia.Controls.DataGrid 12.1.2 -> Avalonia (>= 12.1.0) \n MercadoriaCSharp -> Avalonia (>= 11.3.12)",
-      "projectPath": "/home/info2026/Avalonia/MercadoriaCSharp/MercadoriaCSharp/MercadoriaCSharp.csproj",
-      "filePath": "/home/info2026/Avalonia/MercadoriaCSharp/MercadoriaCSharp/MercadoriaCSharp.csproj",
-      "libraryId": "Avalonia",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

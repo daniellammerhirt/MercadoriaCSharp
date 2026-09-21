@@ -24,8 +24,14 @@ build_property.EnableCodeStyleSeverity =
 [/home/info2026/Avalonia/MercadoriaCSharp/MercadoriaCSharp/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/home/info2026/Avalonia/MercadoriaCSharp/MercadoriaCSharp/Views/EntradaEditView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/home/info2026/Avalonia/MercadoriaCSharp/MercadoriaCSharp/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/home/info2026/Avalonia/MercadoriaCSharp/MercadoriaCSharp/Views/MercadoriaEditView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/info2026/Avalonia/MercadoriaCSharp/MercadoriaCSharp/Views/SaidaEditView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

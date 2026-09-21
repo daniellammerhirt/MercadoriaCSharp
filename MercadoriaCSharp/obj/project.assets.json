@@ -124,10 +124,10 @@
           }
         }
       },
-      "Avalonia.Controls.DataGrid/12.1.2": {
+      "Avalonia.Controls.DataGrid/11.3.12": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "12.1.0"
+          "Avalonia": "11.3.12"
         },
         "compile": {
           "lib/net8.0/Avalonia.Controls.DataGrid.dll": {
@@ -357,18 +357,18 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
-      "DialogHost.Avalonia/0.12.1-nightly.0.1": {
+      "DialogHost.Avalonia/0.8.1": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "12.0.0"
+          "Avalonia": "11.1.0"
         },
         "compile": {
-          "lib/net8.0/DialogHost.Avalonia.dll": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/DialogHost.Avalonia.dll": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
             "related": ".xml"
           }
         }
@@ -509,17 +509,17 @@
           }
         }
       },
-      "MessageBox.Avalonia/12.0.0": {
+      "MessageBox.Avalonia/3.3.1.1": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "12.0.1",
-          "DialogHost.Avalonia": "0.12.1-nightly.0.1"
+          "Avalonia": "11.1.5",
+          "DialogHost.Avalonia": "0.8.1"
         },
         "compile": {
-          "lib/net8.0/MsBox.Avalonia.dll": {}
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {}
         },
         "runtime": {
-          "lib/net8.0/MsBox.Avalonia.dll": {}
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {}
         }
       },
       "MicroCom.Runtime/0.11.0": {
@@ -1725,21 +1725,22 @@
         "lib/netstandard2.0/Avalonia.Controls.ColorPicker.xml"
       ]
     },
-    "Avalonia.Controls.DataGrid/12.1.2": {
-      "sha512": "Tw02SZd/B42Gq6/l9IBPfuM+VsHPq7c6LXb9mT0xVjZB2UPeynfKlBgQDcrhu/SOfYUGk7tQSRmLFM2kaAjdrw==",
+    "Avalonia.Controls.DataGrid/11.3.12": {
+      "sha512": "9zlVkd23gaFtJwi4n7JaKnGdCSkD1fuiRdflzfkLoVXxHKQ2pTOcsUB26rAs7uMTCRvvte8OPwbsK8otA1wNPg==",
       "type": "package",
-      "path": "avalonia.controls.datagrid/12.1.2",
+      "path": "avalonia.controls.datagrid/11.3.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "_manifest/cyclonedx/bom.cdx.json",
-        "avalonia.controls.datagrid.12.1.2.nupkg.sha512",
+        "avalonia.controls.datagrid.11.3.12.nupkg.sha512",
         "avalonia.controls.datagrid.nuspec",
-        "lib/net10.0/Avalonia.Controls.DataGrid.dll",
-        "lib/net10.0/Avalonia.Controls.DataGrid.xml",
+        "lib/net6.0/Avalonia.Controls.DataGrid.dll",
+        "lib/net6.0/Avalonia.Controls.DataGrid.xml",
         "lib/net8.0/Avalonia.Controls.DataGrid.dll",
         "lib/net8.0/Avalonia.Controls.DataGrid.xml",
+        "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll",
+        "lib/netstandard2.0/Avalonia.Controls.DataGrid.xml",
         "readme.md"
       ]
     },
@@ -1979,19 +1980,19 @@
         "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
       ]
     },
-    "DialogHost.Avalonia/0.12.1-nightly.0.1": {
-      "sha512": "+kAecd931qfA1jA2WfxcPoGK9Eed6buwvoDRinbyDqx0472fVKFzPiQucuiQL+z1Eop3+uFcRFcrgXgbdBV5sg==",
+    "DialogHost.Avalonia/0.8.1": {
+      "sha512": "RLBOMqjJPgSmwe0i1pzX3Q7Pn0i4xE/E1b774krd4VyEkaorz1AYMdYQHyIfuhtQv5NntZyS0MuQbxJl/PhzBg==",
       "type": "package",
-      "path": "dialoghost.avalonia/0.12.1-nightly.0.1",
+      "path": "dialoghost.avalonia/0.8.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "dialoghost.avalonia.0.12.1-nightly.0.1.nupkg.sha512",
+        "dialoghost.avalonia.0.8.1.nupkg.sha512",
         "dialoghost.avalonia.nuspec",
         "icon.png",
-        "lib/net8.0/DialogHost.Avalonia.dll",
-        "lib/net8.0/DialogHost.Avalonia.xml"
+        "lib/netstandard2.0/DialogHost.Avalonia.dll",
+        "lib/netstandard2.0/DialogHost.Avalonia.xml"
       ]
     },
     "HarfBuzzSharp/8.3.1.1": {
@@ -2170,17 +2171,16 @@
         "logo.png"
       ]
     },
-    "MessageBox.Avalonia/12.0.0": {
-      "sha512": "EPCRoeoZrArY4g2AJDw67Oi9h4y2eLNNdGGX1I7lR/eNiQHdnR5f7FedShxUdpgs5jHz69uM1prVpbP3X1rxpg==",
+    "MessageBox.Avalonia/3.3.1.1": {
+      "sha512": "a0NocLvE0ipg0REevrMtilNI+ud+tFTJW7YrPtploeM93ew8S3Y6hEybqZ7W9q5Yqa9u+xOrOjAlG1lTihWhnQ==",
       "type": "package",
-      "path": "messagebox.avalonia/12.0.0",
+      "path": "messagebox.avalonia/3.3.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.jpg",
-        "lib/net10.0/MsBox.Avalonia.dll",
-        "lib/net8.0/MsBox.Avalonia.dll",
-        "messagebox.avalonia.12.0.0.nupkg.sha512",
+        "lib/netstandard2.0/MsBox.Avalonia.dll",
+        "messagebox.avalonia.3.3.1.1.nupkg.sha512",
         "messagebox.avalonia.nuspec"
       ]
     },
@@ -3793,13 +3793,13 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Avalonia >= 11.3.12",
-      "Avalonia.Controls.DataGrid >= 12.1.2",
+      "Avalonia.Controls.DataGrid >= 11.3.12",
       "Avalonia.Desktop >= 11.3.12",
       "Avalonia.Diagnostics >= 11.3.12",
       "Avalonia.Fonts.Inter >= 11.3.12",
       "Avalonia.Themes.Fluent >= 11.3.12",
       "CommunityToolkit.Mvvm >= 8.2.1",
-      "MessageBox.Avalonia >= 12.0.0",
+      "MessageBox.Avalonia >= 3.3.1.1",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.0"
@@ -3857,7 +3857,7 @@
           },
           "Avalonia.Controls.DataGrid": {
             "target": "Package",
-            "version": "[12.1.2, )"
+            "version": "[11.3.12, )"
           },
           "Avalonia.Desktop": {
             "target": "Package",
@@ -3881,7 +3881,7 @@
           },
           "MessageBox.Avalonia": {
             "target": "Package",
-            "version": "[12.0.0, )"
+            "version": "[3.3.1.1, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -3919,16 +3919,5 @@
         "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.119/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Avalonia from 12.1.0 to 11.3.12. Reference the package directly from the project to select a different version. \n MercadoriaCSharp -> Avalonia.Controls.DataGrid 12.1.2 -> Avalonia (>= 12.1.0) \n MercadoriaCSharp -> Avalonia (>= 11.3.12)",
-      "libraryId": "Avalonia",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
